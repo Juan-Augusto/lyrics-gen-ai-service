@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+moviepy==2.0.0.dev2
+openai-whisper
+librosa
+torch --index-url https://download.pytorch.org/whl/cpu
