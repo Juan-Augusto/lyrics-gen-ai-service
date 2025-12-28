@@ -3,6 +3,11 @@
 __pycache__/
 *.pyd
 
+outputs
+outputs/
+temp_files
+temp_files/
+
 # Environments
 venv/
 .venv/
