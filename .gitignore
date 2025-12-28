@@ -4,9 +4,9 @@ __pycache__/
 *.pyd
 
 outputs
-outputs/
+outputs/*
 temp_files
-temp_files/
+temp_files/*
 
 # Environments
 venv/
