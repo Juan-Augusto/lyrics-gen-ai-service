@@ -13,7 +13,9 @@ WORKDIR /app
 
 # 1. Copy and install dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt  
+# Usually takes >1000s
+#RUN pip install -r requirements.txt
 
 # 2. Pre-download Whisper
 RUN python -c "import whisper; whisper.load_model('base')"

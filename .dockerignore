@@ -1,5 +1,7 @@
-venv/
 __pycache__/
-outputs/
-temp_files/
+venv/
 .git/
+outputs/
+uploads/
+*.mp3
+*.mp4
